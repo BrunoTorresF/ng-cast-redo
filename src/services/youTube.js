@@ -1,4 +1,8 @@
 angular.module('video-player')
-.service('youTube', function(){
-  // TODO
+.service('youTube', function($http){
+  this.search = () => {
+    $http.get(
+      
+    )
+  }
 });
