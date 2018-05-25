@@ -5,10 +5,10 @@ angular.module('video-player')
     videos: "<",
     onClick: "<"
   },
-  controller: function () {
-    this.onClick = ($index) => {
-      console.log("onClick fires")
-      $ctrl.selectVideo($index)
-    }
-  }
+  // controller: function () {
+  //   this.onClick = () => {
+  //     console.log("onClick fires")
+  //     $ctrl.selectVideo($index)
+  //   }
+  // }
 });
