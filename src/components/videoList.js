@@ -6,8 +6,9 @@ angular.module('video-player')
     onClick: "<"
   },
   controller: function () {
-    this.onClick = () => {
-
+    this.onClick = ($index) => {
+      console.log("onClick fires")
+      $ctrl.selectVideo($index)
     }
   }
 });
